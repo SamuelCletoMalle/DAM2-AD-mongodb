@@ -2,8 +2,8 @@
 // DAM2 - ACCESO A DATOS
 // PRÁCTICA MONGODB - TIENDA ONLINE
 // ============================================================
-// Nombre:
-// Fecha:
+// Nombre: Samuel Cleto Malle
+// Fecha: 26/11/2026
 //
 // Escribe debajo de cada enunciado la consulta correspondiente.
 // Utiliza la chuleta de MongoDB como referencia.
@@ -13,16 +13,29 @@
 // ============================================================
 
 // 1. Muestra todas las bases de datos disponibles.
+ //show databases
 
 // 2. Selecciona la base de datos `tienda`.
+//use tienda
 
 // 3. Lista todas sus colecciones.
+// show collections
 
 // 4. Averigua cuántos documentos tiene cada colección.
+ //db.almacenes.countDocuments
+ //db.categorias.countDocuments
+ //db.clientes.countDocuments
+ //db.cupones.countDocuments
+ //db.devoluciones.countDocuments
+ //db.pedidos.countDocuments
+ //db.productos.countDocuments
+ //db.proveedores.countDocuments
 
 // 5. Muestra todos los productos registrados.
+//db.productos.find()
 
 // 6. Obtén un único producto.
+//db.productos.findOne()
 
 // 7. Descubre qué categorías de productos existen.
 
